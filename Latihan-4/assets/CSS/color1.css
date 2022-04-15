@@ -1,0 +1,234 @@
+/* Body Universal */
+
+body{
+    box-sizing: border-box;
+    background-color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* NAVIGATOR */
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    background: #6455bb;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 1px 1px 0 lightblue;
+}
+nav .Logo{
+    font-size: 1px;
+    width: 30%;
+    left: 10px;
+    top: 5px;
+}
+li {
+    float: left;
+}
+nav .Logo img {
+    position: fixed;
+    top: 15px;
+    left: 80px;
+    float: left;
+    padding-top:none;
+    width: 50px;
+}
+nav li {
+   display: inline;
+   padding-right:  100px;
+}
+nav a{
+    text-decoration: none;
+    color: lightblue;
+    padding: 10px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, monospace ;
+    font-weight: bold;
+    transition: 0.15%;
+}
+.left {
+    position: fixed;
+    left: 100px;
+    float: left;
+    margin: 30px;
+    letter-spacing: 2px;
+}
+.left li a:hover{
+    background-color: lightblue;
+    color: black;
+    box-shadow: 0 0 0px white;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+
+.greetings {
+    padding: 30px;
+    padding-top: 120px;
+    top: 30px;
+    text-align: center;
+    text-shadow: 2px 3px black;
+}
+.box span{
+    color: blueviolet ;
+}
+
+/* UNIVERSAL CODE */
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, monospace ;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, monospace ;
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom:10px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.greetings h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, monospace ;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.box h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, monospace ;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    /*text-shadow: 2px 3px black; */
+}
+.text > h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 14;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.text > h2 {
+    font-size: 20px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+.text > h3 {
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/* Section About Us */
+
+#about{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.sub {
+    text-align: center;
+    font-size: x-large;
+    background: linear-gradient(45deg, whitesmoke, transparent, whitesmoke);
+    color: rgb(255 255 255);
+    padding: 20px;
+    width: 100%;
+    margin: 40px 0 40px 0;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Section Div 2 Box */
+
+.learned{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+}
+.box {
+    background-color: lightsteelblue;
+    border: 5px solid white;
+    padding: 10px;
+    width: 100%;
+    float: center;
+    margin: 15px;
+    display: flex;
+    border-radius: 20px;
+}
+.box > img{
+    border: 3px solid white; 
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+}
+button {
+    background-color: whitesmoke;
+	color: grey;
+	border: 2px solid transparent;
+    font-family: fantasy ;
+	font-weight: lighter;
+	padding: 13px 30px;
+	border-radius: 30px;
+}
+button:hover{
+	background-color: white;
+	border: 2px solid lightskyblue;
+	cursor: pointer;
+    color: lightsteelblue;
+}
+.card {
+    
+    box-shadow: 2px lightslategray;
+    border: 3px solid white;
+    padding: 10px;
+    width: 20%;
+    float: left;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: black;
+}
+.card > h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightblue;
+}
+.card > h2 {
+    font-size: 10px;
+    color: lightblue;
+    text-align: justify;
+    text-indent: 20px;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Footer */
+
+.end {
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background: black;
+    margin-top: 50px;
+}
+
+/* .copyright{
+    position: absolute;
+    bottom: -400px;
+    / width: 52vw; /
+    width: 100vw;
+    height: 100px;
+    padding: 0px;
+    background: black;
+} */
